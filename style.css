@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+
+}
+.meow{
+    background-color: #101828;
+    height: 75vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+
+}
+.navbar a{
+    margin-top: 10px;
+    
+
+}
+.nav-links{
+    position: sticky;
+    margin-top: 12px;
+    margin-left: 420px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin: 8px;
+    font-family: Arial, sans-serif;
+
+
+}
+.navbar .logo{
+    color: #a7f3d0;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+.text-and-images{
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    
+}
+.text-and-images .txt{
+    /* border: 1px solid green; */
+    width: 50%;
+    height: 50vh;
+    margin-top:85px;
+    margin-left: 110px;
+}
+.txt h4{
+    color: #6ee7b7;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+
+}
+.txt h2{
+    margin-top: 12px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 58px;
+
+}
+.txt span{
+    color: #6ee7b7;
+}
+.txt p{
+    margin-top: 6px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+.button1{
+    /* border: 1px solid yellow; */
+    height: 100px;
+    width: 100%;
+    margin-top: 40px;
+}
+.button1 button{
+    height: 50px;
+    width: 200px;
+    background-color: #41ad82;
+    border: none;
+    outline: none;
+    color: #101828;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+
+}
+.button1 .about{
+    background-color: #101828;
+    color: #41ad82;
+    border: 1px solid grey;
+    width: 150px;
+    margin-left: 10px;
+}
+.img img{
+    position: relative;
+    left: 1000px;
+    bottom: 380px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+
+}
+.img button{
+    position: relative;
+    left: 900px;
+    bottom: 400px;
+    background-color: #fbbf24;
+    height: 30px;
+    width: 120px;
+    border: none;
+    outline: none;
+    color: #101828;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+}
