@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <style>
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.meow{
+background-color: #101828;
+height: 7vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+
+}
+.navbar a{
+    margin-top: 10px;
+    
+
+}
+.nav-links{
+    position: sticky;
+    margin-top: 12px;
+    margin-left: 420px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin: 8px;
+    font-family: Arial, sans-serif;
+
+
+}
+.navbar .logo{
+    color: #a7f3d0;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+.container{
+    border: 1px solid green;
+    margin-top: 100px;
+    height: 80vh;
+    margin-left: 100px;
+    font-family: Arial, sans-serif;
+}
+.container h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.container p{
+    font-size: 15px;
+    margin-top: 8px;
+    color: gray;
+}
+.project-card{
+    margin-top: 10px;
+    display: flex;
+    height: 450px;
+}
+.project-card .one{
+    height: 380px;
+    width: 300px;
+    border: none;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(15, 23, 42, 0.10);
+    margin-left: 90px;
+    margin-top: 30px;
+    /* border: 1px solid green; */
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.one .icon{
+    font-size: 30px;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.one .icon2{
+    height: 30px;
+    width: 100px;
+    background-color: #d1fae5;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.icon2 h1{
+    font-size: 12px;
+    margin-top: 9px;
+    
+}
+</style>
+</head>
+<body>
+    <div class="meow">
+        <header class="navbar">
+                <a href="#home" class="logo">Suleman.dev</a>
+
+                <nav class="nav-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#achievements">Achievements</a>
+                    <a href="#contact">Contacts</a>
+                </nav>
+
+            </header>
+
+        <div class="container">
+            <h2>My Projects 💻</h2>
+            <p>Every project is a new opportunity to learn.</p>
+
+            <div class="project-card">
+                <div class="one">
+                    <div class="icon">🌐</div>
+                    <div class="icon2"><h1>PROJECT 01</h1></div>
+                    <h3>Personal Website</h3>
+                    <p>A personal website to introduce myself, share my interests, and display my work.</p>
+                </div>
+
+                <div class="one">
+                    <div class="icon">🌐</div>
+                    <div class="icon2">PROJECT 01</div>
+                    <h3>Personal Website</h3>
+                    <p>A personal website to introduce myself, share my interests, and display my work.</p>
+                </div>
+
+
+                <div class="one">
+                    <div class="icon">🌐</div>
+                    <div class="icon2">PROJECT 01</div>
+                    <h3>Personal Website</h3>
+                    <p>A personal website to introduce myself, share my interests, and display my work.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
