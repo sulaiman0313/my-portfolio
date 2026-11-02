@@ -101,7 +101,7 @@
 .button1 button:hover{
     transform: translateY(-5px);
     color: white;
-    
+
 }
 .button1 .about{
     background-color: #101828;
@@ -134,7 +134,7 @@
     border-radius: 3px;
 }
 .meow2{
-    height: 100vh;
+    height: 55vh;
     width: 100%;
 }
 .meow2 h2{
@@ -199,7 +199,7 @@
     border: none;
     outline: none;
     color: #101828;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     border-radius: 8px;
     margin-top: 20px;
@@ -209,7 +209,27 @@
 }
 .card:hover{
     color: white;
-    transform: translateY(-8px);
-    box-shadow: 0 15px 40px rgba(15, 23, 42, 0.10);
-
+    transform: translateY(-5px);
+}
+.meow3{
+    background-color: #101828;
+    height: 150px;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+.meow3 h3{
+    font-size: 20px;
+    color: #a7f3d0;
+    margin-bottom: 5px;
+}
+.meow3 p{
+    font-size: 14px;
+}
+.special{
+    font-weight: 800;
+    color: #41ad82;
 }
