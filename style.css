@@ -107,7 +107,7 @@
     left: 1000px;
     bottom: 380px;
     height: 250px;
-    width: 270px;
+    width: 250px;
     border-radius: 50%;
 
 }
@@ -141,4 +141,67 @@
     font-family: Arial, sans-serif;
     margin-top: 10px;
     margin-left: 100px;
+}
+.card-port{
+    /* border: 1px solid green; */
+    margin-top: 10px;
+    display: flex;
+    height: 450px;
+}
+.card-port .one{
+    height: 280px;
+    width: 350px;
+    border: none;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(15, 23, 42, 0.10);
+    margin-left: 90px;
+    margin-top: 30px;
+    /* border: 1px solid green; */
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.one:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(15, 23, 42, 0.10);
+}
+
+.icon{
+    font-size: 50px;
+    position: relative;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.card-port h4{
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    margin-left: 40px;
+    margin-top: 12px;
+}
+.card-port p{
+    font-size: 12px;
+    position: relative;
+    margin-left: 40px;
+    margin-top: 20px;   
+}
+.card-port .card{
+    height: 50px;
+    width: 100px;
+    background-color: #41ad82;
+    border: none;
+    outline: none;
+    color: #101828;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 40px;
+    transition: all 0.8s ease;
+    cursor: pointer;
+}
+.card:hover{
+    color: white;
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(15, 23, 42, 0.10);
+
 }
