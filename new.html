@@ -49,7 +49,7 @@ height: 7vh;
     font-family: Arial, sans-serif;
 }
 .container{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin-top: 100px;
     height: 80vh;
     margin-left: 100px;
@@ -68,40 +68,204 @@ height: 7vh;
     margin-top: 10px;
     display: flex;
     height: 450px;
+    margin-left: -15px;
 }
 .project-card .one{
-    height: 380px;
+    height: 280px;
     width: 300px;
     border: none;
     background: #ffffff;
     border-radius: 20px;
     box-shadow: 0 15px 40px rgba(15, 23, 42, 0.10);
-    margin-left: 90px;
     margin-top: 30px;
+    margin-left: 15px;
     /* border: 1px solid green; */
     transition: all 0.3s ease;
     cursor: pointer;
 }
+.project-card .one:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(15, 23, 42, 0.10);
+}
 .one .icon{
     font-size: 30px;
     position: relative;
-    margin-left: 10px;
-    margin-top: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
 }
 .one .icon2{
-    height: 30px;
-    width: 100px;
+    margin-top: 10px;
+    height: 25px;
+    width: 83px;
     background-color: #d1fae5;
     text-align: center;
     align-items: center;
     position: fixed;
     border-radius: 5px;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 .icon2 h1{
     font-size: 12px;
-    margin-top: 9px;
+    margin-top: 6px;
+    color: #065f46;
     
+}
+.one h3{
+    margin-top: 50px;
+    font-size: 16px;
+    margin-left: 30px;
+}
+.one p{
+    font-size: 12px;
+    margin-left: 30px;
+}
+.skills{
+    display: flex;
+    margin-top: 10px;
+}
+.skill1{
+    display: flex;
+    margin-top: 10px;
+    height: 25px;
+    width: 53px;
+    background-color: #e0f2fe;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 30px;
+    color: #075985;
+}
+.skill2{
+    display: flex;
+    margin-top: 10px;
+    height: 25px;
+    width: 43px;
+    background-color: #e0f2fe;
+    text-align: center;
+    align-items: center;
+
+    border-radius: 10px;
+    margin-left: 30px;
+    color: #075985;
+}
+.skill21{
+    display: flex;
+    margin-top: 10px;
+    height: 25px;
+    width: 58px;
+    background-color: #e0f2fe;
+    text-align: center;
+    align-items: center;
+
+    border-radius: 10px;
+    margin-left: 30px;
+    color: #075985;
+}
+.skill21 h1{
+
+    font-size: 12px;
+    margin-top: 2px;
+    margin-left: 10px;    
+    font-weight: 100;
+}
+.skill29{
+    display: flex;
+    margin-top: 10px;
+    height: 25px;
+    width: 58px;
+    background-color: #e0f2fe;
+    text-align: center;
+    align-items: center;
+
+    border-radius: 10px;
+    margin-left: 30px;
+    color: #075985;
+}
+.skill29 h1{
+
+    font-size: 12px;
+    margin-top: 2px;
+    margin-left: 10px;    
+    font-weight: 100;
+}
+.skill23{
+    display: flex;
+    margin-top: 10px;
+    height: 25px;
+    width: 50px;
+    background-color: #e0f2fe;
+    text-align: center;
+    align-items: center;
+
+    border-radius: 10px;
+    margin-left: 30px;
+    color: #075985;
+}
+.skill23 h1{
+
+    font-size: 12px;
+    margin-top: 2px;
+    margin-left: 10px;    
+    font-weight: 100;
+}
+.skill19{
+    display: flex;
+    margin-top: 10px;
+    height: 25px;
+    width: 78px;
+    background-color: #e0f2fe;
+    text-align: center;
+    align-items: center;
+
+    border-radius: 10px;
+    margin-left: 30px;
+    color: #075985;
+}
+.skill19 h1{
+
+    font-size: 12px;
+    margin-top: 2px;
+    margin-left: 13px;    
+    font-weight: 100;
+}
+
+.skill1 h1{
+
+    font-size: 12px;
+    margin-top: 1px;
+    margin-left: 11px;  
+    font-weight: 100;  
+
+}
+.skill2 h1{
+
+    font-size: 12px;
+    margin-top: 2px;
+    margin-left: 10px;    
+    font-weight: 100;
+}
+.meow3{
+    margin-top: -20vh;
+    background-color: #101828;
+    height: 150px;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+.meow3 h3{
+    font-size: 20px;
+    color: #a7f3d0;
+    margin-bottom: 5px;
+}
+.meow3 p{
+    font-size: 14px;
+}
+.special{
+    font-weight: 800;
+    color: #41ad82;
 }
 </style>
 </head>
@@ -130,25 +294,70 @@ height: 7vh;
                     <div class="icon">🌐</div>
                     <div class="icon2"><h1>PROJECT 01</h1></div>
                     <h3>Personal Website</h3>
-                    <p>A personal website to introduce myself, share my interests, and display my work.</p>
+                    <p>A personal website to introduce <br> myself, share my interests, and display <br>my work.</p>
+
+                    <div class="skills">
+                        <div class="skill1"><h1>HTML</h1></div>
+                        <div class="skill2"><h1>CSS</h1></div>
+                    </div>
                 </div>
 
                 <div class="one">
-                    <div class="icon">🌐</div>
-                    <div class="icon2">PROJECT 01</div>
-                    <h3>Personal Website</h3>
-                    <p>A personal website to introduce myself, share my interests, and display my work.</p>
+                    <div class="icon">🎮</div>
+                    <div class="icon2"><h1>PROJECT 02</h1></div>
+                    <h3>Fun Quiz</h3>
+                    <p>A quiz concept with questions about<br>science, nature, technology, and<br>general knowledge.</p>
+
+                    <div class="skills">
+                        <div class="skill1"><h1>Design</h1></div>
+                        <div class="skill23"><h1>Logic</h1></div>
+                    </div>
+
                 </div>
 
 
                 <div class="one">
-                    <div class="icon">🌐</div>
-                    <div class="icon2">PROJECT 01</div>
-                    <h3>Personal Website</h3>
-                    <p>A personal website to introduce myself, share my interests, and display my work.</p>
+                    <div class="icon">🌱</div>
+                    <div class="icon2"><h1>PROJECT 03</h1></div>
+                    <h3>Go Green</h3>
+                    <p>A website sharing simple ideas that<br>help students protect the<br>environment.</p>
+
+                    <div class="skills">
+                        <div class="skill1"><h1>HTML</h1></div>
+                        <div class="skill21"><h1>Flexbox</h1></div>
+                    </div>
+                </div>
+
+                <div class="one">
+                    <div class="icon">💰</div>
+                    <div class="icon2"><h1>PROJECT 04</h1></div>
+                    <h3>My Budget Planner</h3>
+                    <p>A design concept that helps students<br>understand savings, spending, and<br>budgeting.</p>
+
+                    <div class="skills">
+                        <div class="skill19"><h1>UI Design</h1></div>
+                        <div class="skill29"><h1>Flexbox</h1></div>
+                    </div>
                 </div>
             </div>
         </div>
+
+        <section class="meow3">
+            <div class="txtt">
+                <h3>Suleman.dev</h3>
+                <p>Turning ideas into reality.</p>
+
+            </div>
+            <div class="txtt">
+                <p>Made with ❤️ using HTML & CSS | © 2026</p>
+
+
+            </div>
+            <div class="txtt">
+                <span class="special">Back to Top ↑</span>
+            </div>
+        </section>
+
     </div>
 </body>
 </html>
