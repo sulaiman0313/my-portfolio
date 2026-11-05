@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .meow {
+            background-color: #101828;
+            height: 7vh;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+
+        }
+
+        .navbar a {
+            margin-top: 10px;
+
+
+        }
+
+        .nav-links {
+            position: sticky;
+            margin-top: 12px;
+            margin-left: 420px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+            margin: 8px;
+            font-family: Arial, sans-serif;
+
+
+        }
+
+        .navbar .logo {
+            color: #a7f3d0;
+            text-decoration: none;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+        }
+        .mid{
+            /* border: 4px solid green; */
+            height: 100vh;
+            margin-top: 10px;
+            display: flex;
+        }
+        .mid .one{
+            margin: 50px 100px;
+            /* border: 1px solid red; */
+            width: 60%;
+            position: relative;
+        }
+        .one h2{
+            font-size: 32px;
+            font-family: Arial, sans-serif;
+            margin-top: 10px;
+        }
+        .one p{
+            /* color: #667085; */
+            margin-top: 20px;
+            line-height: 22px;
+        }
+        .para{
+            color: #101828;
+            margin-top: 20px;
+            font-size: 16px;
+            font-weight: 100;
+            line-height: 25px;
+        }
+        .one h5{
+            font-size: 20px;
+            margin-top: 45px;
+        }
+        .button1{
+    /* border: 1px solid yellow; */
+    height: 100px;
+    width: 100%;
+    margin-top: 40px;
+}
+.button1 button{
+    height: 50px;
+    width: 200px;
+    background-color: #41ad82;
+    border: none;
+    outline: none;
+    color: #101828;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+
+}
+.button1 button:hover{
+    transform: translateY(-5px);
+    color: white;
+
+}
+.two{
+    height: 300px;
+    /* border: 2px solid green; */
+    margin-left: -100px;
+    margin-top: 200px;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 15px 40px rgba(15, 23, 42, 0.10);
+
+}
+.two h4{
+    margin: 30px;
+    font-size: 22px;
+}
+.two ul li{
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.meow3{
+    margin-top: -100px;
+    background-color: #101828;
+    height: 150px;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+.meow3 h3{
+    font-size: 20px;
+    color: #a7f3d0;
+    margin-bottom: 5px;
+}
+.meow3 p{
+    font-size: 14px;
+}
+.special{
+    font-weight: 800;
+    color: #41ad82;
+}
+    </style>
+
+
+</head>
+
+<body>
+    <div class="meow">
+        <header class="navbar">
+            <a href="#home" class="logo">Suleman.dev</a>
+
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#achievements">Achievements</a>
+                <a href="#contact">Contacts</a>
+            </nav>
+
+        </header>
+
+        <div class="mid">
+            <div class="one">
+            <h2>About Me 👋</h2>
+            <p>Get to know the person behind the projects.</p>
+            <h5>My Story</h5>
+            <h6 class="para">Hi! I'm Alex, a curious student who loves discovering how technology works.  I started learning coding 
+                because <br> I wanted to  create my own websites and games.</h6>
+            <h6 class="para">I believe that every mistake is an opportunity to learn. My goal is to use creativity and technology to
+             <br> solve real-world problems.</h6>
+
+            <h5>My Hobbies</h5>
+            <p>📚 Reading books and learning new things</p>
+            <p>🎨 Drawing and designing</p>
+            <p>💻 Coding websites and games</p>
+            <p>⚽ Playing outdoor games</p>
+
+
+            <div class="button1">
+                <button onclick="window.location.href='myskills.html'">View My Projects</button>
+            </div>
+        </div>
+
+        <div class="two">
+            <h4>Quick Facts</h4>
+            <ul>
+                <li>🎓 Class: <span>8</span></li>
+                <li>📍 City: <span>My hometown</span></li>
+                <li>💡 Interest: <span>Technology</span></li>
+                <li>🚀 Dream: <span>Build an app</span></li>
+                <li>🌱 Currently:<span>Learning CSS</span></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <section class="meow3">
+            <div class="txtt">
+                <h3>Suleman.dev</h3>
+                <p>Turning ideas into reality.</p>
+
+            </div>
+            <div class="txtt">
+                <p>Made with ❤️ using HTML & CSS | © 2026</p>
+
+
+            </div>
+            <div class="txtt">
+                <span class="special">Back to Top ↑</span>
+            </div>
+        </section>
+
+
+    </div>
+</body>
+
+</html>

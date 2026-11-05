@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myskills</title>
+
+    <style>
+                * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .meow {
+            background-color: #101828;
+            height: 7vh;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+
+        }
+
+        .navbar a {
+            margin-top: 10px;
+
+
+        }
+
+        .nav-links {
+            position: sticky;
+            margin-top: 12px;
+            margin-left: 420px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+            margin: 8px;
+            font-family: Arial, sans-serif;
+
+
+        }
+
+        .navbar .logo {
+            color: #a7f3d0;
+            text-decoration: none;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+        }
+        .mid{
+            /* border: 1px solid green; */
+            margin-top: 100px;
+            margin-left: 100px;
+            height: 90vh;
+
+        }
+        .mid h2{
+            font-size: 32px;
+        }
+        .mid p{
+            font-size: 17px;
+            margin-top: 24px;
+            font-weight: 100;
+            color: gray;
+        }
+        .card-port{
+            /* border: 1px solid red; */
+            margin-top: 50px;
+            height: 400px;
+            display: flex;
+            margin-left: -30px;
+        }
+        
+    
+
+        .card-port .one{
+            height: 250px;
+            width: 310px;
+            border: none;
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 15px 40px rgba(15, 23, 42, 0.10);
+            margin-left: 28px;
+            margin-top: 30px;
+    /* border: 1px solid green; */
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        .card-port h4{
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+            margin-left: 40px;
+            margin-top: 12px;
+}
+        .card-port p{
+            font-size: 12px;
+            position: relative;
+            margin-left: 40px;
+            margin-top: 20px;   
+        }
+        .icon{
+            font-size: 34px;
+            position: relative;
+            margin-left: 40px;
+            margin-top: 20px;
+        }
+        #card-percent {
+            display: flex;
+            justify-content: space-around;
+            margin-left: -10px;
+        }
+        #card-percent h1{
+            margin-top: 20px;
+            font-size: 16px;
+            font-weight: 300;
+        }
+        #card-percent h2{
+            margin-top: 20px;
+            font-size: 15px;
+            font-weight: 100;
+        }
+        .level{
+            /* border: 2px solid red; */
+            background-color: #97989a;
+            box-shadow: 0 15px 40px rgba(15, 23, 42, 0.10);
+            margin-top: 10px;
+            border-radius: 10px;
+            width: 80%;
+            margin-left: 30px;
+            height: 10px;
+        }
+        .lvl1{
+            /* border: 2px solid red; */
+            background: #059669;
+            border-radius: 10px;
+            width: 80%;
+            /* margin-left: 30px; */
+            height: 10px;
+        }
+        .meow3{
+            margin-top: -100px;
+            background-color: #101828;
+            height: 150px;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            align-items: center;
+        }
+        .meow3 h3{
+            font-size: 20px;
+            color: #a7f3d0;
+            margin-bottom: 5px;
+        }
+        .meow3 p{
+            font-size: 14px;
+        }
+        .special{
+            font-weight: 800;
+            color: #41ad82;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="meow">
+        <header class="navbar">
+            <a href="#home" class="logo">Suleman.dev</a>
+
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#achievements">Achievements</a>
+                <a href="#contact">Contacts</a>
+            </nav>
+
+        </header>
+
+        <div class="mid">
+            <h2>My Skills 🚀</h2>
+            <p>Skills I'm learning and practising every day.</p>
+
+            <div class="card-port">
+                <div class="one">
+                    <div class="icon">🌐</div>
+                    <h4>HTML</h4>
+                    <p>Building the structure of websites with HTML elements.</p>
+                    <div id="card-percent">
+                        <h1>Learning</h1>
+                        <h2>85%</h2>
+                    </div>
+                    <div class="level">
+                        <div class="lvl1"></div>
+                        <div class="lvl11"></div>
+                    </div>
+                </div>
+
+
+                    <div class="one">
+                    <div class="icon">🎨</div>
+                    <h4>CSS</h4>
+                    <p>Adding colors, layouts, spacing, and visual <br> effects.</p>
+                    <div id="card-percent">
+                        <h1>Learning</h1>
+                        <h2>85%</h2>
+                    </div>
+                    <div class="level">
+                        <div class="lvl1"></div>
+                        <div class="lvl11"></div>
+                    </div>
+                </div>
+
+
+
+                    <div class="one">
+                    <div class="icon">📐</div>
+                    <h4>Flexbox</h4>
+                    <p>Arranging page elements using <br> flexible layouts.</p>
+                    <div id="card-percent">
+                        <h1>Learning</h1>
+                        <h2>85%</h2>
+                    </div>
+                    <div class="level">
+                        <div class="lvl1"></div>
+                        <div class="lvl11"></div>
+                    </div>
+                </div>
+
+
+
+                    <div class="one">
+                    <div class="icon">🧠</div>
+                    <h4>Problem Solving</h4>
+                    <p>Breaking problems into smaller and  <br>easier steps.</p>
+                    <div id="card-percent">
+                        <h1>Learning</h1>
+                        <h2>85%</h2>
+                    </div>
+                    <div class="level">
+                        <div class="lvl1"></div>
+                        <div class="lvl11"></div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+            </div>
+
+            <p>Note: The percentages are sample values for the design.</p>
+
+
+        </div>
+
+            <section class="meow3">
+            <div class="txtt">
+                <h3>Suleman.dev</h3>
+                <p>Turning ideas into reality.</p>
+
+            </div>
+            <div class="txtt">
+                <p>Made with ❤️ using HTML & CSS | © 2026</p>
+
+
+            </div>
+            <div class="txtt">
+                <span class="special">Back to Top ↑</span>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
